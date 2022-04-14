@@ -1,0 +1,12 @@
+
+.friendList {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.friendList > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+}

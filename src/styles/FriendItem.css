@@ -1,0 +1,20 @@
+.friendItem {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.friendItem > h5 {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.friendItem:hover {
+  background-color: white;
+}
+
+.friendItem__avatar {
+  height: 50px;
+  margin-left: 15px;
+}

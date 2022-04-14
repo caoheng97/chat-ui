@@ -1,0 +1,39 @@
+
+
+.messageline {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+
+.messageline__avatar {
+  height: 30px;
+}
+
+
+.message {
+  border-radius: 5px;
+  height:30px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.message-me {
+  background-color: rgb(67, 144, 245);
+  color: white;
+}
+
+.message-notme {
+  background-color: lightgray;
+}
+
+
+.message > p {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+

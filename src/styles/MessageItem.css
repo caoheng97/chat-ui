@@ -1,0 +1,36 @@
+.messageItem {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.messageItem__info {
+  display: flex;
+}
+
+.messageItem__avatar {
+  height: 50px;
+  margin-right: 5px;
+}
+
+.messageItem__chat {
+  height: 60px;
+}
+
+
+.messageItem__chat > h5 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.messageItem__chat > h6 {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  color: gray;
+}
